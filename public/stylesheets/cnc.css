@@ -9,7 +9,7 @@ a {text-decoration: none;}
 #sub_head {text-align:center; background-image: url('/images/subhead_box.png'); background-repeat:no-repeat; background-position:center; margin: 16px auto 0px auto; padding:5px 0px 3px 1px }
 .entry {margin: 140px 0px 0px 105px; height:350px; width:600px;}
 .entry .headline{float:left;}
-.entry .subhead{padding: 0px 0px 0px 12px; float:left;}
+.entry .subhead{width:180px; padding: 0px 0px 0px 12px; float:left;}
 .entry .instructions{margin:1px 0px 0px 161px; float:left;}
 .entry .arrow{padding:7px 0px 0px 3px;}
 .navigation{padding: 18px 0px 0px 0px; background-image: url('/images/bottom_bar.png'); background-repeat:no-repeat; background-position:center; height:30px; text-align:center;}
