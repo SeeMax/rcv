@@ -7,7 +7,7 @@ a {text-decoration: none;}
 #wrapper {width:800px;margin: 0px auto 0px auto;}
 #banner {width:800px; text-align: center; margin: 100px auto 0px auto;}
 #sub_head {text-align:center; background-image: url('/images/subhead_box.png'); background-repeat:no-repeat; background-position:center; margin: 16px auto 0px auto; padding:5px 0px 3px 1px }
-.entry {margin: 140px 0px 0px 105px; height:350px; width:600px;}
+.entry {margin: 140px 0px 0px 105px; height:350px; width:600px;  border-style:solid; border-color:red; border-width:1px;}
 .entry .headline{float:left;}
 .entry .subhead{width:180px; padding: 0px 0px 0px 12px; float:left;}
 .entry .instructions{margin:1px 0px 0px 161px; float:left;}
@@ -16,6 +16,13 @@ a {text-decoration: none;}
 .p1 {font: 10px Arial Narrow; color:#B0B0B0; display:inline; letter-spacing: .77px;}
 .p2 {font: 10px Arial Narrow; color:#B0B0B0; display:inline; padding: 0px 15px 0px 15px; margin: 0px 5px 0px 0px; letter-spacing: .65px;}
 
+
+
+
+
+#result {margin: 140px 0px 0px 105px; width: 155px; border-style:solid; border-color:red; border-width:1px;}
+#result_nav {margin: 250px 0px 0px 0px; padding: 18px 0px 0px 0px; background-image: url('/images/bottom_bar.png'); background-repeat:no-repeat; background-position:center; height:30px; text-align:center;}
+.name {margin: 0px 0px 0px 280px; width: 300px; font: 30px Arial Narrow; color:#B0B0B0; padding: 0px 0px 0px 5px; border-style:solid; border-color:red; border-width:1px;}
 
 
 /*This is the code for how-to*/
