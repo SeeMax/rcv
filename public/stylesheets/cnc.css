@@ -20,12 +20,11 @@ a {text-decoration: none;}
 }
 
 #wrapper {
-	width:800px;
 	margin: 0px auto 0px auto;
+	min-width:800px; 
 }
 
-#banner {
-	width:800px; 
+#banner { 
 	text-align: center; 
 	margin: 100px auto 0px auto;
 }
@@ -85,36 +84,11 @@ a {text-decoration: none;}
 	padding: 0px 15px 0px 15px; 
 	margin: 0px 5px 0px 0px; 
 	letter-spacing: .65px;
+	border-style:solid; 
+	border-color:red; 
+	border-width:1px;
 }
 
-/*This is the code for name*/
-#result {
-	background-image: url('/images/new_name.png');
-	background-position:left top;
-	background-repeat:no-repeat; 
-	margin: 140px 0px 0px 105px; 
-	width: 433px;
-	height: 96px; 
-}
-
-#result_nav {
-	margin: 250px 0px 0px 0px; 
-	padding: 18px 0px 0px 0px; 
-	background-image: url('/images/bottom_bar.png'); 
-	background-repeat:no-repeat; background-position:center; 
-	height:30px; 
-	text-align:center;
-}
-
-.name_box {
-	margin: 0px 0px 0px 162px; 
-	width: 450px; 
-	font: 22px Andale Mono; 
-	color: 	#F8F8F8;
-	background-color:;
-	opacity:.80;
-	letter-spacing: .45px;
-}
 
 .entry .subhead {
 	padding: 0px 0px 0px 10px;
@@ -123,7 +97,7 @@ a {text-decoration: none;}
 .entry .subhead .text {
 	width: 272px;
 	height: 23px;
-	font: 13px Andale Mono; 
+	font: 13px Arial Narrow; 
 	color:	#707070 ;
 	margin:0px 0px 4px 4px;
 	text-align:center;
@@ -132,8 +106,62 @@ a {text-decoration: none;}
 }
 
 
-/*This is the code for how-to*/
+/*This is the code for name*/
+#new_name {
+  text-align:center;
+	margin:100px 0px 0px 0px;
 
+}
+
+#result_nav {
+	margin: 270px 0px 0px 0px; 
+	padding: 18px 0px 0px 0px; 
+	background-image: url('/images/bottom_bar.png'); 
+	background-repeat:no-repeat; background-position:center; 
+	height:30px; 
+	text-align:center;
+	border-style:solid; 
+	border-color:red; 
+	border-width:1px;
+}
+
+#wrapper_result {
+	text-align:center;
+	margin: 25px auto 0px auto;
+	white-space:nowrap;
+}
+
+#result_banner_l {
+	display:inline;
+}
+
+#result_name {
+	vertical-align: top;
+	display:inline;
+	background-image: url('/images/result_banner_back.png');
+	background-repeat:repeat-x;
+	font: 40px Arial Narrow; 
+	color: #F8F8F8;
+	padding-bottom:10px;
+	white-space:nowrap;
+}
+
+#result_banner_r {
+	display:inline;
+}
+
+
+
+/*This is the code for how-to*/
+#about_p {
+
+	font: 18px Arial Narrow; 
+	color:	white;
+	margin:100px auto 277px auto;
+	text-align:center;
+	border: none;
+	opacity:.80;
+}
 
 /*This is the code for red border: 
 border-style:solid; 
