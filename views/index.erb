@@ -5,10 +5,13 @@
   <title>Creative Name Company</title>
   <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/reset.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/cnc.css" />
+  <script src="/javascripts/jquery.js"></script>
+  <script src="/javascripts/application.js"></script>
 </head>
 <body> 
   <div id= 'top_border'>
   </div><!-- #top_border -->
+  <div id="gif">HEY!</div>
     <div id='wrapper'>
       <div id='banner'>
       <a href="/"><img src='/images/banner.png'></a>
@@ -18,12 +21,12 @@
         </div><!-- #sub_head -->
         <div class='entry'>
           <div class='headline'><img src='/images/our_company.png'></div>
-          <form class='subhead' action="/" method='post'>
-            <input type="text" class='text' size="37" placeholder="press enter when you're done." maxlength="250" name="name"/>
+          <form id="name_form" class='subhead' action="/" method='post'>
+            <input type="text" class='text' size="37" placeholder="press enter when you're done." autocomplete="off" maxlength="250" name="name"/>
           </form>
           <div class='instructions'><p class='p1'>Type a few words describing what your company does.</p></div>
           <div class='arrow'><img src='/images/entry_arrow.png'></div>
-        </div><!-- #entry -->
+        </div><!-- #entry -->  
       <div class='navigation'>
         <a href="/"><p class='p2'>GET A NAME</p></a>
         <a href="/gallery"><p class='p2'>NAME GALLERY</p></a>

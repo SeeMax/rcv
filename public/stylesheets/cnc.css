@@ -153,13 +153,17 @@ a {text-decoration: none;}
 
 /*This is the code for how-to*/
 #about_p {
-
 	font: 18px Arial Narrow; 
 	color:	white;
 	margin:100px auto 277px auto;
 	text-align:center;
 	border: none;
 	opacity:.80;
+}
+
+#gif {
+	color: white;
+	display:none;
 }
 
 /*This is the code for red border: 
