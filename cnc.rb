@@ -1,6 +1,3 @@
-require 'sinatra'
-require 'active_support'
-
 get '/' do
   erb :index
 end
