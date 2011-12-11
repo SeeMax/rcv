@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'active_support'
 
 get '/' do
   erb :index
@@ -9,6 +10,13 @@ get '/about' do
 end
 
 post '/' do  
-  @name = "#{params['name']} Company"
+  @name = params['name']
+  @name = @name.titleize.strip.squeeze(" ")
+
+  @name.gsub!("The", "")
+  @name.gsub!("A", "")
+  @name.gsub!("Whatever", "")
+
+  @name = @name + " Company"
   erb :name
 end
