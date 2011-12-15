@@ -38,27 +38,45 @@ a {text-decoration: none;}
 	padding:5px 0px 3px 1px
 }
 
+
 .entry {
-	margin: 140px 0px 0px 105px; 
+	margin:60px auto 0px auto; 
 	height:350px; width:600px;
 }
 
 .entry .headline{
-	float:left;
+	margin:39px 0px 0px 0px;
+	display:inline-block;
 }
 
-.entry .subhead{ 
-	padding: 0px 0px 0px 13px; 
-	float:left;
+.entry .area{ 
+	vertical-align: top;
+	margin:40px 0px 0px 10px;
+	display:inline-block; 
+	padding: 0px 0px 0px 0px;
 }
+
+.entry .area .text {
+	width: 269px;
+	height: 23px;
+	font: 13px Arial Narrow; 
+	color:	#707070 ;
+	padding: 0px 0px 2px 7px;
+	border: none;
+	opacity:.90;
+}
+
 
 .entry .instructions{
-	margin:2px 0px 0px 161px; 
-	float:left;
+	display:inline-block;
+	margin:8px 0px 0px 168px; 
 }
 
 .entry .arrow{
-	padding:7px 0px 0px 3px;
+	position:relative;
+	top:19px; 
+	left: 4px;
+	display:inline-block;
 }
 
 .navigation{
@@ -71,10 +89,10 @@ a {text-decoration: none;}
 }
 
 .p1 {
-	font: 10px Arial Narrow; 
-	color:#B0B0B0; 
-	display:inline; 
-	letter-spacing: .77px;
+	font:10px Arial Narrow; 
+	color:#B0B0B0;  
+	letter-spacing: 4px;
+	opacity:.6;
 }
 
 .p2 {
@@ -89,21 +107,6 @@ a {text-decoration: none;}
 	border-width:1px;
 }
 
-
-.entry .subhead {
-	padding: 0px 0px 0px 10px;
-}
-
-.entry .subhead .text {
-	width: 272px;
-	height: 23px;
-	font: 13px Arial Narrow; 
-	color:	#707070 ;
-	margin:0px 0px 4px 4px;
-	text-align:center;
-	border: none;
-	opacity:.90;
-}
 
 
 /*This is the code for name*/
@@ -137,14 +140,15 @@ a {text-decoration: none;}
 
 #result_name {
 	vertical-align: top;
-	display:inline;
+	display:inline-block;
 	background-image: url('/images/result_banner_back.png');
 	background-repeat:repeat-x;
-	font: 40px Arial Narrow; 
+	font: 30px Arial Narrow; 
 	color: #F8F8F8;
-	padding-bottom:10px;
+	padding:12px 5px 40px 5px;
 	white-space:nowrap;
 }
+
 
 #result_banner_r {
 	display:inline;
@@ -158,7 +162,8 @@ a {text-decoration: none;}
 	margin:100px auto 277px auto;
 	text-align:center;
 	border: none;
-	opacity:.80;
+	opacity:.70;
+	white-space:nowrap;
 }
 
 #gif {
