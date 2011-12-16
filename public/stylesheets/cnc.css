@@ -40,7 +40,7 @@ a {text-decoration: none;}
 
 
 .entry {
-	margin:60px auto 0px auto; 
+	margin:90px auto 0px auto; 
 	height:350px; width:600px;
 }
 
@@ -51,19 +51,20 @@ a {text-decoration: none;}
 
 .entry .area{ 
 	vertical-align: top;
-	margin:40px 0px 0px 10px;
+	margin:40px 0px 0px 15px;
 	display:inline-block; 
 	padding: 0px 0px 0px 0px;
 }
 
 .entry .area .text {
-	width: 269px;
+	width: 265px;
 	height: 23px;
 	font: 13px Arial Narrow; 
 	color:	#707070 ;
 	padding: 0px 0px 2px 7px;
 	border: none;
 	opacity:.90;
+	letter-spacing: 2px;
 }
 
 
@@ -80,7 +81,7 @@ a {text-decoration: none;}
 }
 
 .navigation{
-	padding: 18px 0px 0px 0px; 
+	padding: 20px 0px 0px 0px; 
 	background-image: url('/images/bottom_bar.png'); 
 	background-repeat:no-repeat; 
 	background-position:center; 
@@ -99,12 +100,8 @@ a {text-decoration: none;}
 	font: 10px Arial Narrow; 
 	color:#B0B0B0; 
 	display:inline; 
-	padding: 0px 15px 0px 15px; 
-	margin: 0px 5px 0px 0px; 
-	letter-spacing: .65px;
-	border-style:solid; 
-	border-color:red; 
-	border-width:1px;
+	margin: 0px 22px 0px 22px; 
+	letter-spacing: 1px;
 }
 
 
@@ -157,13 +154,26 @@ a {text-decoration: none;}
 
 /*This is the code for how-to*/
 #about_p {
-	font: 18px Arial Narrow; 
+	min-width:600px;
+	font: 17px Arial Narrow; 
 	color:	white;
 	margin:100px auto 277px auto;
 	text-align:center;
-	border: none;
 	opacity:.70;
 	white-space:nowrap;
+	border-style:solid; 
+	border-color:red; 
+	border-width:1px;
+	letter-spacing:2px;
+}
+
+#about_border {
+	margin: 0px auto;
+	width:234px;
+	border: dotted;
+	padding:20px;
+	border-color:white;
+	text-align:left;
 }
 
 #gif {
