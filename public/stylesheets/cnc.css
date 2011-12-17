@@ -31,17 +31,18 @@ a {text-decoration: none;}
 
 #sub_head {
 	text-align:center; 
-	background-image: url('/images/subhead_box.png'); 
-	background-repeat:no-repeat; 
-	background-position:center; 
 	margin: 16px auto 0px auto; 
-	padding:5px 0px 3px 1px
+	padding:4px 2px 1px 2px;
+	width:270px;
+	border-style:dashed; 
+	border-color:	#B8B8B8; 
+	border-width:1px;
 }
 
 
 .entry {
 	margin:90px auto 0px auto; 
-	height:350px; width:600px;
+	height:300px; width:600px;
 }
 
 .entry .headline{
@@ -120,9 +121,6 @@ a {text-decoration: none;}
 	background-repeat:no-repeat; background-position:center; 
 	height:30px; 
 	text-align:center;
-	border-style:solid; 
-	border-color:red; 
-	border-width:1px;
 }
 
 #wrapper_result {
@@ -155,9 +153,9 @@ a {text-decoration: none;}
 /*This is the code for how-to*/
 #about_p {
 	min-width:600px;
-	font: 17px Arial Narrow; 
+	font: 14px Arial Narrow; 
 	color:	white;
-	margin:100px auto 277px auto;
+	margin:70px auto 70px auto;
 	text-align:center;
 	opacity:.70;
 	white-space:nowrap;
