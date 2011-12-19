@@ -1,5 +1,9 @@
 body{background-image: url('/images/background.png');}
-a {text-decoration: none;}
+a {
+	text-decoration:none;
+	font: 14px Arial Narrow; 
+	color:	white;
+}
 
 /*This is the code for index*/
 
@@ -32,8 +36,8 @@ a {text-decoration: none;}
 #sub_head {
 	text-align:center; 
 	margin: 16px auto 0px auto; 
-	padding:4px 2px 1px 2px;
-	width:270px;
+	padding:3px 2px 0px 2px;
+	width:264px;
 	border-style:dashed; 
 	border-color:	#B8B8B8; 
 	border-width:1px;
@@ -71,7 +75,8 @@ a {text-decoration: none;}
 
 .entry .instructions{
 	display:inline-block;
-	margin:8px 0px 0px 168px; 
+	margin:8px 0px 0px 174px; 
+	opacity:.5;
 }
 
 .entry .arrow{
@@ -79,6 +84,7 @@ a {text-decoration: none;}
 	top:19px; 
 	left: 4px;
 	display:inline-block;
+	opacity:.5;
 }
 
 .navigation{
@@ -155,26 +161,29 @@ a {text-decoration: none;}
 	min-width:600px;
 	font: 14px Arial Narrow; 
 	color:	white;
-	margin:70px auto 70px auto;
+	margin:60px auto 70px auto;
 	text-align:center;
 	opacity:.70;
 	white-space:nowrap;
-	border-style:solid; 
-	border-color:red; 
-	border-width:1px;
-	letter-spacing:2px;
+	letter-spacing:1.5px;
 }
 
 #about_border {
 	margin: 0px auto;
-	width:234px;
+	width:250px;
 	border: dotted;
-	padding:20px;
+	padding:5px 8px 11px 8px;
 	border-color:white;
 	text-align:left;
 }
 
 #gif {
+	height: 500px;
+	text-align:center;
+	margin:100px auto 0px auto;
+	background-image: url('/images/loading.gif');
+	background-repeat:no-repeat;
+	background-position:center;
 	color: white;
 	display:none;
 }
