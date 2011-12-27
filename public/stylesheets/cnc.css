@@ -1,4 +1,5 @@
-body{background-image: url('/images/background.png');}
+body{background-image: url('/images/background.png');
+}
 a {
 	text-decoration:none;
 	font: 14px Arial Narrow; 
@@ -42,7 +43,6 @@ a {
 	border-color:	#B8B8B8; 
 	border-width:1px;
 }
-
 
 .entry {
 	margin:90px auto 0px auto; 
@@ -144,9 +144,9 @@ a {
 	display:inline-block;
 	background-image: url('/images/result_banner_back.png');
 	background-repeat:repeat-x;
-	font: 30px Arial Narrow; 
+	font: 27px Arial Narrow; 
 	color: #F8F8F8;
-	padding:12px 5px 40px 5px;
+	padding:13px 5px 40px 5px;
 	white-space:nowrap;
 }
 
