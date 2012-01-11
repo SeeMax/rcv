@@ -50,26 +50,26 @@ a {
 }
 
 .entry .headline{
-	margin:39px 0px 0px 0px;
+	margin:39px 0px 0px 16px;
 	display:inline-block;
 }
 
 .entry .area{ 
 	vertical-align: top;
-	margin:40px 0px 0px 15px;
+	margin:40px 0px 0px 0px;
 	display:inline-block; 
 	padding: 0px 0px 0px 0px;
 }
 
 .entry .area .text {
-	width: 265px;
+	width: 263px;
 	height: 23px;
-	font: 13px Arial Narrow; 
+	font: 11px Arial Narrow; 
 	color:	#707070 ;
-	padding: 0px 0px 2px 7px;
+	padding: 0px 0px 2px 9px;
 	border: none;
 	opacity:.90;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 
@@ -178,12 +178,9 @@ a {
 }
 
 #gif {
-	height: 500px;
+	
 	text-align:center;
-	margin:100px auto 0px auto;
-	background-image: url('/images/loading.gif');
-	background-repeat:no-repeat;
-	background-position:center;
+	margin:300px auto 208px auto;
 	color: white;
 	display:none;
 }
