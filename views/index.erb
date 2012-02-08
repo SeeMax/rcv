@@ -2,37 +2,76 @@
 <html>
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <title>Creative Name Company</title>
+  <title>Real Complainers Vote</title>
   <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/reset.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/cnc.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/rcv.css" />
   <script src="/javascripts/jquery.js"></script>
   <script src="/javascripts/application.js"></script>
 </head>
 <body> 
-  <div id= 'top_border'>
-  </div><!-- #top_border -->
-  <div id="gif">
-    <img src='/images/loading.gif'>
-  </div>
-    <div id='wrapper'>
-      <div id='banner'>
-      <a href="/"><img src='/images/banner.png'></a>
-      </div><!-- #banner -->
-        <div id='sub_head'>
-        <img src='/images/subhead_words.png'>
-        </div><!-- #sub_head -->
-        <div class='entry'>
-          <div class='headline'><img src='/images/our_company.png'></div>
-            <form class='area' action="/" method='post'><input type="text" class='text' align="middle" placeholder="Type a few words about what you do" autocomplete="off" maxlength="80" name="name"/></form><div class='arrow'><img src='/images/entry_arrow.png'></div>
-                <div class='instructions'><p class='p1'>PRESS ENTER WHEN YOU'RE DONE</p></div>
-                  </div><!-- #entry -->  
-      <div class='navigation'>
-        <a href="/"><p class='p2'>NEW NAME</p></a>
-        <a href="/gallery"><p class='p2'>OUR WORK</p></a>
-        <a href="/about"><p class='p2'>ABOUT US</p></a>
-      </div><!-- #navigation -->
+  <div id='wrapper'>
+       <div id='banner'>
+         <a href="/"><img src='/images/rcv_small_banner.png'></a>
+       </div><!-- #banner -->
+     <div id="menu_wrapper">
+       <div id='button_1'>
+         <a class = 'btn' href="https://register.rockthevote.com/registrants/new?partner=1&source=rtv.com-topnavigation"><p class='p2'>Get Registered</p></a>
+       </div><!-- #button_1 -->
+       <div id='button_2'>
+         <a class = 'btn' href="/about"><p class='p2'>Helpful Links</p></a>
+       </div><!-- #button_2 -->
+       <div id='button_3'>
+         <a class = 'btn' href="/about"><p class='p2'>Somethin'</p></a>
+       </div><!-- #button_3 -->
+       <div id='button_4'>
+         <a class = 'btn' href="/about"><p class='p2'>Somethin' 2</p></a>
+       </div><!-- #button_4 -->
+       <div id='button_5'>
+         <a class = 'btn' href="/"><p class='p2'>Home</p></a>
+       </div><!-- #button_5 -->
+     </div><!-- #menu_wrapper -->
+        <div id="content">
+          
+        <div id='youtube'>
+          <div id = 'youtube_border'>
+          <iframe width="640" height="360" src="http://www.youtube.com/embed/6KBo7vzrHGY" frameborder="0" allowfullscreen></iframe>
+          </div><!-- #youtube_border -->
+        </div><!-- #youtube -->
+         
+         <div id = "twitter"> 
+           <div id = "twitter_border"> 
+          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+          new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 4,
+            interval: 30000,
+            width: 250,
+            height: 300,
+            theme: {
+              shell: {
+                background: '#b50000',
+                color: '#ffffff'
+              },
+              tweets: {
+                background: '#ffffff',
+                color: '#7d0000',
+                links: '#000000'
+              }
+            },
+            features: {
+              scrollbar: true,
+              loop: false,
+              live: false,
+              behavior: 'all'
+            }
+          }).render().setUser('@adlandjones').start();
+          </script>
+        </div><!-- #twitter_border -->
+      </div><!-- #twitter -->
+      </div><!-- #content -->  
     </div><!-- #wrapper -->
-  <div id='bottom_border'></div><!-- #bottom_border -->
 </body>
 </html>
 
