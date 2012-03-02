@@ -1,10 +1,17 @@
 body {
+	
+}
+
+.parallax-div {
+	position:absolute;
+	left:100px;
+	top:150px;
 }
 
 #wrapper {
 	margin: 0px auto 0px auto;
-	min-width:1300px;
-	min-height:2200px; 
+	min-width:1220px;
+	min-height:1000px;
 	position:relative;
 }
 
@@ -42,7 +49,7 @@ text-decoration:none;
 }
 
 #content{
-	margin:80px 0px 0px 220px;
+	margin:80px 0px 0px 240px;
 	text-align:center;
 }
 
@@ -56,6 +63,7 @@ text-decoration:none;
 	height:360;
 	background:rgba(255, 0, 0, 0.3);
 	padding:10px 10px 6px 10px;
+	
 }
 
 #twitter{
