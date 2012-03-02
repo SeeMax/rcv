@@ -1,15 +1,8 @@
-$(document).ready(function(){
-
-	$(".entry .area").submit(function(event){
-		var form = this;
-	  event.preventDefault();
-	
-		$("#wrapper").hide();
-		$("#gif").show();
-	
-	  setTimeout(function() {		
-			form.submit();
-	  }, 3800);
+$(document).ready(function() {
+	$.scrollingParallax('/images/mt_rushmore.jpg', {
+			bgWidth : '200%',
+			bgHeight : '200%',
+			enableHorizontal : true,
+			staticSpeedX : 2,
 	});
-
 });
