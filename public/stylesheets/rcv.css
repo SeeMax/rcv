@@ -2,10 +2,9 @@ body {
 	
 }
 
-.parallax-div {
+.parallax-div_1 {
 	position:absolute;
-	left:100px;
-	top:150px;
+	width:100%;
 }
 
 #wrapper {
@@ -13,6 +12,10 @@ body {
 	min-width:1220px;
 	min-height:1000px;
 	position:relative;
+}
+
+#wrapper_pattern {
+	background: url('/images/concrete_wall_3.png');
 }
 
 #menu_wrapper {
@@ -29,14 +32,11 @@ text-decoration:none;
 
 .btn {
 	display: block; 
-	width: 110px; 
-	height: 22px; 
-	background: url('/images/rcv_button_1_2.png') no-repeat top;	
-	padding: 12px 20px 0px 90px;   	
+	width: 260px; 
+	height: 37px;
 }
 
 .btn:hover, .button-link:focus {
-		background: url('/images/rcv_button_1_2.png') no-repeat bottom;  
 		-moz-box-shadow: 5px 8px 5px rgba(0,0,0,0.5);
 		-webkit-box-shadow: 5px 8px 5px rgba(0,0,0,0.5);
 		box-shadow: 5px 8px 5px rgba(0,0,0,0.5); 	
@@ -47,6 +47,42 @@ text-decoration:none;
     -moz-box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
     box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+#button_1 {
+	margin: 10px 0px; 
+	width: 260px; 
+	height: 37px; 	
+  background: url('/images/RCV_Btn-01.png');
+}
+
+#button_2 {
+	margin: 10px 0px; 
+  width: 251px; 
+	height: 37px; 	
+	background: url('/images/RCV_Btn-02.png');
+}
+
+#button_3 {
+	margin: 10px 0px; 
+  width: 251px; 
+	height: 37px; 	
+	background: url('/images/RCV_Btn-03.png');
+}
+
+#button_4 {
+	margin: 10px 0px; 
+  width: 251px; 
+	height: 37px; 	
+	background: url('/images/RCV_Btn-04.png');
+}
+
+#button_5 {
+	margin: 10px 0px; 
+  width: 251px; 
+	height: 37px; 	
+	background: url('/images/RCV_Btn-05.png');
+}
+
 
 #content{
 	margin:80px 0px 0px 240px;
@@ -81,26 +117,6 @@ text-decoration:none;
 }
 
 /*This is the code for index*/
-
-#button_1 {
-	margin: 10px 0px; 
-}
-
-#button_2 {
-	margin: 10px 0px; 
-}
-
-#button_3 {
-	margin: 10px 0px; 
-}
-
-#button_4 {
-	margin: 10px 0px; 
-}
-
-#button_5 {
-	margin: 10px 0px; 
-}
 
 
 #banner { 
@@ -153,6 +169,17 @@ text-decoration:none;
 	white-space:nowrap;
 }
 
+.p3 
+{
+	font-size: 200px; 
+	font-family: Arial Black, "Lucida Grande", sans-serif; 
+	color: rgba(25, 25, 112, 0.2);
+	line-height:60%;
+	margin: 0px 0px 0px 0px; 
+	padding:0px 0px 0px 0px;
+	letter-spacing: 1.5px;
+	white-space:nowrap;
+}
 
 
 /*This is the code for name*/

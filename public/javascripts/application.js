@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$.scrollingParallax('/images/mt_rushmore.jpg', {
+	$.scrollingParallax('/images/mt_rushmore.png', {
 			bgWidth : '125%',
 			bgHeight : '125%',
 			enableHorizontal : true,
@@ -8,11 +8,11 @@ $(document).ready(function() {
 	});
 
 
-$('div.parallax-div').scrollingParallax({
-    bgWidth : '2000%',
-		bgHeight : '2000%',
+$('div.parallax-div_1').scrollingParallax({
+    bgWidth : '1000%',
+		bgHeight : '1000%',
 		enableHorizontal : true,
-		staticSpeed : 3,
-		loopIt : true
+		staticSpeed : .7,
+		loopIt : false,
 });
 });
