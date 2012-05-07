@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$.scrollingParallax('/images/mt_rushmore.png', {
+	$.scrollingParallax('/images/', {
 			bgWidth : '125%',
 			bgHeight : '125%',
 			enableHorizontal : true,
