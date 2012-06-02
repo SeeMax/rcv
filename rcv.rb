@@ -10,6 +10,9 @@ get '/links' do
   erb :links
 end
 
+get '/posters' do
+  erb :posters
+end
 
 
 
