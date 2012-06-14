@@ -14,6 +14,9 @@ get '/posters' do
   erb :posters
 end
 
+get '/stickers' do
+  erb :stickers
+end
 
 
 

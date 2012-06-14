@@ -1,69 +1,57 @@
-body {
-	background: url('/images/white_wall.jpg');
+html {
+	height: 100%;
 }
 
-.parallax-div_1 {
-	position:fixed;
-	top:0;
-	left:0;
-	z-index:-99;
+body {
+background:rgba(0,0,30,1.0);
+height: 100%;
 }
+
 
 #wrapper {
+	background: url('/images/white_wall.jpg');
 	margin: 0px auto 0px auto;
-	min-width:1270px;
-	min-height:700px;
-	
-}
-
-
-#lockup{
-	margin: 0px;
-	background-color:rgba(255,255,255, .4);
-	margin: 0px 0px 0px 0px;
-	padding:5px 5px 2px 5px;
-	width:250px;
-	border-radius: 3px;
-	-moz-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	z-index:2;
+	padding: 0px 0px 0px 0px;
+	max-width:1200px;
+	min-width:1200px;
+	min-height:100%;
 }
 
 #banner { 
-	position:absolute;
-	top:0px;
-	width:100%;
-	min-width:1270px;
-	height: 60px;
-	border-radius: 3px;
-	background-color:rgba(255,255,255, .4);
-	margin: 0px 0px 0px 290px;
-	padding:0px 0px 0px 5px;
-	vertical-align: top;
-	-moz-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	z-index:-1;
+	margin: 0px auto 0px auto;
+	display:inline-block;
+	width:1300px;
 }
 
-#banner_copy { 
+#lockup{
 	display:inline-block;
+	padding:10px 7px 0px 7px;
+	opacity:.95;
+}
+
+#banner_copy_l { 
 	vertical-align: top;
-	margin:10px 0px 0px 14px;
-	text-align:center;}
+	padding: 6px 0px 0px 95px;
+	display:inline-block;
+	opacity:.70;
+}
+
+#banner_copy_r { 
+	vertical-align: top;
+	padding: 6px 0px 0px 0px;
+	display:inline-block;
+	opacity:.70;
+}
+
 
 .title {
-	position: absolute;
-	top:93px;
-	left:270px;
-	margin:10px 0px 0px 14px;
+	margin:0px 0px 0px 284px;
 }
 
 #menu_wrapper {
 	text-align:right;
 	position:absolute;
-	top:225px;
+	top:345px;
 	width:220px; 
 }
 
@@ -94,8 +82,8 @@ text-decoration:none;
 	margin: 10px 0px; 
 	width: 250px; 
 	height: 37px; 	
-  background: url('/images/RCV_Btn-01.png');
-	opacity:0.8;
+  background: url('/images/RCV_Btn-01_w.png');
+	opacity:0.6;
 
 }
 
@@ -103,8 +91,8 @@ text-decoration:none;
 	margin: 10px 0px; 
   width: 251px; 
 	height: 37px; 	
-	background: url('/images/RCV_Btn-02.png');
-	opacity:0.8;
+	background: url('/images/RCV_Btn-02_w.png');
+	opacity:0.6;
 
 }
 
@@ -112,16 +100,16 @@ text-decoration:none;
 	margin: 10px 0px; 
   width: 251px; 
 	height: 37px; 	
-	background: url('/images/RCV_Btn-03.png');
-	opacity:0.8;
+	background: url('/images/RCV_Btn-03_w.png');
+	opacity:0.6;
 }
 
 #button_4 {
 	margin: 10px 0px; 
   width: 251px; 
 	height: 37px; 	
-	background: url('/images/RCV_Btn-04.png');
-	opacity:0.8;
+	background: url('/images/RCV_Btn-04_w.png');
+	opacity:0.6;
 
 }
 
@@ -129,51 +117,52 @@ text-decoration:none;
 	margin: 10px 0px; 
   width: 251px; 
 	height: 37px; 	
-	background: url('/images/RCV_Btn-05.png');
-	opacity:0.8;
+	background: url('/images/RCV_Btn-05_w.png');
+	opacity:0.6;
+}
+
+#button_6 {
+	margin: 10px 0px; 
+  width: 251px; 
+	height: 37px; 	
+	background: url('/images/RCV_Btn-06_w.png');
+	opacity:0.6;
 }
 
 
-#content{
-	margin:80px 0px 0px 285px;
-	text-align:center;
+.content{
+	margin:80px 0px 0px 300px;
+	width:1000px;
+	padding:0px 0px 30px 0px;
 }
 
 #youtube{
 	display:inline-block; 
 	vertical-align: top;
+	margin:0px 40px 40px 0px;
 }
 
 #youtube_border{
-	width:640px;
-	height:360;
-	background-color:rgba(0,0,70,.7);
+	width:480px;
+	height:295;
+	background-color:rgba(255,255,255,.5);
 	padding:10px 10px 6px 10px;
 	border-radius: 2px;
-	-moz-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	
-	
 }
 
 #twitter{
 	display:inline-block;
 	vertical-align: top;
-	margin: 0px 0px 0px 60px;
+	margin: 0px 0px 0px 0px;
 	width:250px;
 }
 
 #twitter_border{
 	width:250px;
 	height:360;
-	background-color:rgba(0,0,70,.7);
+	background-color:rgba(255,255,255,.5);
 	padding:10px 10px 10px 10px;
 	border-radius: 2px;
-	-moz-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	-webkit-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
-	
 }
 
 /*This is the code for index*/
@@ -181,7 +170,7 @@ text-decoration:none;
 
 .posters{
 	margin:80px auto 0px auto; 
-	padding:0px 0px 0px 285px;
+	padding:0px 0px 0px 312px;
 }
 
 
@@ -191,9 +180,8 @@ text-decoration:none;
 }
 
 
-.outgoing{
-	margin:80px auto 10px auto; 
-	padding:0px 0px 0px 0px;
+.outgoing{ 
+	padding:0px 0px 0px 11px;
 	width:600px;
 	text-align:center;
 }
@@ -217,6 +205,14 @@ text-decoration:none;
 	 box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+
+.about{
+	background: rgba(0,0,90, 0.1);  
+	width: 600px;
+	
+	margin:0px 0px 0px 10px;
+}
+
 .p1 {
 	font-size: 20px; 
 	font-family: Arial, "Lucida Grande", sans-serif; 
@@ -230,7 +226,7 @@ text-decoration:none;
 .p2 {
 	font-size: .875em; 
 	font-family: Arial, "Lucida Grande", sans-serif; 
-	color:rgba(233,233,233, 0.99);
+	color:rgba(0,0,110, 0.8);
 	margin: 0px 0px 0px 0px; 
 	padding:11px 22px 0px 0px;
 	letter-spacing: 1.5px;
@@ -247,24 +243,36 @@ text-decoration:none;
 	white-space:nowrap;
 }
 
-.p4 
+.p4_1 
 {
 	font-size: 10px; 
 	font-family: Arial, "Lucida Grande", sans-serif;
 	color: rgba(0,0,100,.9);
 	margin: 0px 0px 0px 0px; 
-	letter-spacing: 4px;
-	line-height:20px;
+	letter-spacing: 2px;
+	line-height:17px;
+	text-align:right
 }
+
+.p4_2
+{
+	font-size: 10px; 
+	font-family: Arial, "Lucida Grande", sans-serif;
+	color: rgba(200,0,0,1.0);
+	margin: 0px 0px 0px 0px; 
+	letter-spacing: 2px;
+	line-height:17px;
+}
+
 
 .p5 
 {
-	font-size: 100px; 
-	font-family: Arial Black, "Lucida Grande", sans-serif;
-	color: rgba(0,0,0,.05);
-	margin: 0px 0px 0px 0px; 
+	font-size: 16px; 
+	font-family: Arial, "Lucida Grande", sans-serif;
+	color: rgba(250,250,250,.6); 
 	letter-spacing: 4px;
-	line-height:20px;
+	line-height:24px;
+	padding: 10px 15px;
 }
 
 
@@ -279,3 +287,10 @@ border-width:1px;
 -webkit-transition-duration: 0.2s;
 -moz-transition-duration: 0.2s;
 transition-duration: 0.2s;
+
+
+background-color:rgba(255,255,255, .4);
+border-radius: 3px;
+-moz-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
+box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
