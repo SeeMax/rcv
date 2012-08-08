@@ -9,7 +9,6 @@ height: 100%;
 
 
 #wrapper {
-	background: url('/images/white_wall.jpg');
 	margin: 0px auto 0px auto;
 	padding: 0px 0px 0px 0px;
 	max-width:1130px;
@@ -63,44 +62,51 @@ text-decoration:none;
 
 .btn {
 	display: block; 
-	width: 250px; 
-	height: 37px;
+	width: 300px; 
+	height: 120px;
 }
 
 
 
 #button_1 {
-	margin: 10px 0px; 
-	width: 250px; 
-	height: 37px; 	
-  background: url('/images/RCV_Btn-01_7.png');
-	opacity:0.8;
-
+	margin: 0px 0px; 
+	width: 300px; 
+	height: 120px; 	
+  background: url('/images/home_btn.png');
 }
 #button_1:hover {
-	background-position: bottom;
-	margin: 0 0 0 -2;
+	-webkit-transition-duration: .7s;
+	-moz-transition-duration: .7s;
+	transition-duration: .7s;
+	background: url('/images/home_btnR.png');
 }
 
 #button_1:active {
-	opacity:1.0;
+	-webkit-transition-duration: .7s;
+	-moz-transition-duration: .7s;
+	transition-duration: .7s;
+	background: url('/images/home_btnB.png');
 }
 
 #button_2 {
-	margin: 10px 0px; 
-  width: 251px; 
-	height: 37px; 	
-	background: url('/images/RCV_Btn-02_7.png');
-	opacity:0.8;
-}
+		margin: 0px 0px; 
+		width: 300px; 
+		height: 120px; 	
+	  background: url('/images/about_btn.png');
+	}
+	#button_2:hover {
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		transition-duration: .7s;
+		background: url('/images/about_btnR.png');
+	}
 
-#button_2:hover {
-	background-position: bottom;
-}
-
-#button_2:active {
-	opacity:1.0;
-}
+	#button_2:active {
+		-webkit-transition-duration: .7s;
+		-moz-transition-duration: .7s;
+		transition-duration: .7s;
+		background: url('/images/about_btnB.png');
+	}
 
 #button_3 {
 	margin: 10px 0px; 
