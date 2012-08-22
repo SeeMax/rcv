@@ -14,6 +14,17 @@
   <link rel="icon" href="images/rcv_favicon.png" type="image/png">
 </head>
 <body> 
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  
   <div id='top'>
   </div><!--top-->
   <div id='bar_1'>
@@ -21,13 +32,15 @@
   <div id='bar_2'>
   </div><!--bar_2-->
     <div id='wrapper'>
-      <div id='stencil'>
-      </div><!--stencil-->
       <div id='social'>
-        <a href="/"><img src='/images/social_btns.png'></a>
+        <img src='/images/social_btns.png' usemap="#soc_links">
       </div><!--social-->
+      <map name="soc_links">
+          <area shape="rect" coords="21,22,61,62" href="http://www.twitter.com/complainersvote" title="Real Complaints On Twitter" alt="twitter"/>
+          <area shape='rect' coords="79,22,119,62" href="http://www.facebook.com/realcomplainersvote" title="Real Facebook Complainers" alt="facebook"/>
+      </map>
       <div id='megaphone'>
-        <a href="/"><img src='/images/megaphone.png'></a>
+        <img src='/images/megaphone.png'>
       </div><!--megaphone-->
         <div id='lockup'>
           <a href="/"><img src='/images/RCV_lockup.png'></a>
@@ -73,41 +86,19 @@
   <div class="content">
     <div id='youtube'>
       <div id = 'youtube_border'>
-        <iframe width="560" height="340" src="http://www.youtube.com/embed/6KBo7vzrHGY" frameborder="0" allowfullscreen></iframe>
+        <iframe width="640" height="385" src="http://www.youtube.com/embed/BAiM6QfhLBM" frameborder="0" allowfullscreen></iframe>
       </div><!-- #youtube_border -->
     </div><!-- #youtube -->
-      <div id = "twitter"> 
-        <div id = "twitter_border"> 
-          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-            <script>
-              new TWTR.Widget({
-                version: 2,
-                type: 'profile',
-                rpp: 4,
-                interval: 30000,
-                width: 250,
-                height: 300,
-                theme: {
-                  shell: {
-                    background: '#003366',
-                    color: '#ffffff'
-                  },
-                  tweets: {
-                    background: '#ffffff',
-                    color: '#7d0000',
-                    links: '#000000'
-                  }
-                },
-                features: {
-                  scrollbar: true,
-                  loop: false,
-                  live: false,
-                  behavior: 'all'
-                }
-              }).render().setUser('@adlandjones').start();
-            </script>
-           </div><!-- #twitter_border -->
-          </div><!-- #twitter -->
+    
+     <div id='facebook'>
+          <div class="fb-like" data-href="http://www.realcomplainersvote.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+      </div><!-- facebook -->
+    
+    <div id='tweet'>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.realcomplainersvote.com" data-text="One of the best reasons to vote" data-via="complainersvote" data-hashtags="rcv">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div><!-- tweet  -->
+    
        </div><!-- #content -->
    </div><!-- #wrapper -->
   </body>
@@ -117,3 +108,36 @@
 
 
 <!--  border-style:solid; border-color:red; border-width:1px; --!>
+
+<!-- div id = "twitter"> 
+  <div id = "twitter_border"> 
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+      <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'profile',
+          rpp: 4,
+          interval: 30000,
+          width: 250,
+          height: 300,
+          theme: {
+            shell: {
+              background: '#003366',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#ffffff',
+              color: '#7d0000',
+              links: '#000000'
+            }
+          },
+          features: {
+            scrollbar: true,
+            loop: false,
+            live: false,
+            behavior: 'all'
+          }
+        }).render().setUser('@adlandjones').start();
+      </script>
+     </div><!-- #twitter_border -->
+    </div><!-- #twitter -- --!>

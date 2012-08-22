@@ -16,48 +16,75 @@
 
 </head>
 <body> 
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  
+  <div id='top'>
+  </div><!--top-->
+  <div id='bar_1'>
+  </div><!--bar_1-->
+  <div id='bar_2'>
+  </div><!--bar_2-->
     <div id='wrapper'>
-      <div id='lockup'>
-        <a href="/"><img src='/images/RCV_rayrev_s.png'></a>
-      </div><!--lockup-->  
-        <div id="menu_wrapper">
-          <div id='button_1'>
-           <a href="/">
-              <img class="plain" src='/images/btns/home_btn_s.png' />
-              <img class="hover" src='/images/btns/home_btn_sr.png' />
-           </a>
-          </div><!-- #button_1 -->
-          <div id='button_1'>
-           <a href="https://register.rockthevote.com/registrants/new?partner=1&source=rtv.com-topnavigation">
-              <img class="plain" src='/images/btns/register_btn_s.png' />
-              <img class="hover" src='/images/btns/register_btn_sr.png' />
-           </a>
-          </div><!-- #button_1 -->
-          <div id='button_1'>
-           <a href="/posters">
-              <img class="plain" src='/images/btns/posters_btn_s.png' />
-              <img class="hover" src='/images/btns/posters_btn_sr.png' />
-           </a>
-          </div><!-- #button_1 -->
-          <div id='button_1'>
-           <a href="/links">
-              <img class="plain" src='/images/btns/links_btn_s.png' />
-              <img class="hover" src='/images/btns/links_btn_sr.png' />
-           </a>
-          </div><!-- #button_1 -->
-          <div id='button_1'>
-           <a href="/reallife">
-              <img class="plain" src='/images/btns/reallife_btn_s.png' />
-              <img class="hover" src='/images/btns/reallife_btn_sr.png' />
-           </a>
-          </div><!-- #button_1 -->
-          <div id='button_1'>
-           <a href="/about">
-              <img class="plain" src='/images/btns/about_btn_s.png' />
-              <img class="hover" src='/images/btns/about_btn_sr.png' />
-           </a>
-          </div><!-- #button_1 -->
-   </div><!-- #menu_wrapper -->
+      <div id='social'>
+        <img src='/images/social_btns.png' usemap="#soc_links">
+      </div><!--social-->
+      <map name="soc_links">
+          <area shape="rect" coords="21,22,61,62" href="http://www.twitter.com/complainersvote" title="Real Complaints On Twitter" alt="twitter"/>
+          <area shape='rect' coords="79,22,119,62" href="http://www.facebook.com/realcomplainersvote" title="Real Facebook Complainers" alt="facebook"/>
+      </map>
+      <div id='megaphone'>
+        <img src='/images/megaphone.png'>
+      </div><!--megaphone-->
+        <div id='lockup'>
+          <a href="/"><img src='/images/RCV_lockup.png'></a>
+        </div><!--lockup-->  
+          <div id="menu_wrapper">
+            <div id='button_1'>
+             <a href="/">
+                <img class="plain" src='/images/btns/home_btn_s.png' />
+                <img class="hover" src='/images/btns/home_btn_sr.png' />
+             </a>
+            </div><!-- #button_1 -->
+            <div id='button_1'>
+             <a href="https://register.rockthevote.com/registrants/new?partner=1&source=rtv.com-topnavigation">
+                <img class="plain" src='/images/btns/register_btn_s.png' />
+                <img class="hover" src='/images/btns/register_btn_sr.png' />
+             </a>
+            </div><!-- #button_1 -->
+            <div id='button_1'>
+             <a href="/posters">
+                <img class="plain" src='/images/btns/posters_btn_s.png' />
+                <img class="hover" src='/images/btns/posters_btn_sr.png' />
+             </a>
+            </div><!-- #button_1 -->
+            <div id='button_1'>
+             <a href="/links">
+                <img class="plain" src='/images/btns/links_btn_s.png' />
+                <img class="hover" src='/images/btns/links_btn_sr.png' />
+             </a>
+            </div><!-- #button_1 -->
+            <div id='button_1'>
+             <a href="/reallife">
+                <img class="plain" src='/images/btns/reallife_btn_s.png' />
+                <img class="hover" src='/images/btns/reallife_btn_sr.png' />
+             </a>
+            </div><!-- #button_1 -->
+            <div id='button_1'>
+             <a href="/about">
+                <img class="plain" src='/images/btns/about_btn_s.png' />
+                <img class="hover" src='/images/btns/about_btn_sr.png' />
+             </a>
+            </div><!-- #button_1 -->
+     </div><!-- #menu_wrapper -->
         <div class='content'>
           <div class="outgoing">
             <a class='link' href="https://register.rockthevote.com/registrants/new?partner=1&source=rtv.com-topnavigation"><p class='p1'>Register To Vote Through Rock The Vote.</p></a>
