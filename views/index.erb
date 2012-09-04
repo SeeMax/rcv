@@ -11,6 +11,15 @@
   <script src="/javascripts/application.js"></script>
   <script type="text/javascript" src="http://use.typekit.com/mdm0ura.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  
+  <link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
+  <script type="text/javascript" src="shadowbox/shadowbox.js"></script>
+  <script type="text/javascript">
+  Shadowbox.init({
+    autoplayMovies:     true,
+  });
+  </script>
+  
   <link rel="icon" href="images/rcv_favicon.png" type="image/png">
 </head>
 <body> 
@@ -84,16 +93,15 @@
             </div><!-- #button_1 -->
      </div><!-- #menu_wrapper -->
   <div class="content">
-    <div id='youtube'>
-      <div id = 'youtube_border'>
-        <iframe width="640" height="385" src="http://www.youtube.com/embed/BAiM6QfhLBM" frameborder="0" allowfullscreen></iframe>
-      </div><!-- #youtube_border -->
-    </div><!-- #youtube -->
-    
+    <div id='play_btn'>
+       <a href="http://www.youtube.com/v/hF589_X_JJg&rel=1&autoplay=1" rel="shadowbox;height=505;width=853"><img src='/images/play_button_2.png' /></a>
+    </div><!-- play_btn -->  
+      <div id='youtube'>
+        <img src='/images/rcv_screen.jpg' />
+      </div><!-- #youtube -->  
      <div id='facebook'>
           <div class="fb-like" data-href="http://www.realcomplainersvote.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
       </div><!-- facebook -->
-    
     <div id='tweet'>
     <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.realcomplainersvote.com" data-text="One of the best reasons to vote" data-via="complainersvote" data-hashtags="rcv">Tweet</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
