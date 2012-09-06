@@ -26,5 +26,3 @@
 #imageData #bottomNavPrint {margin-right: 10px;}
 
 #overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
-
-#lightboxPrintFrame {position:absolute; width: 0; height: 0; left: -9999px; top: -9999px;}

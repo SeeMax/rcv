@@ -48,7 +48,7 @@
 LightboxOptions = Object.extend({
     fileLoadingImage:        '/images/lb/loading.gif',     
     fileBottomNavCloseImage: '/images/lb/closelabel.gif',
-    fileBottomNavPrintImage: '/images/lb/printlabel.gif',
+    
 
     overlayOpacity: 0.8,   // controls transparency of shadow overlay
 
@@ -157,9 +157,7 @@ Lightbox.prototype = {
                         Builder.node('a',{id:'bottomNavClose', href: '#' },
                             Builder.node('img', { src: LightboxOptions.fileBottomNavCloseImage })
                         ),
-                        Builder.node('a',{id:'bottomNavPrint', href: '#' },
-                            Builder.node('img', { src: LightboxOptions.fileBottomNavPrintImage })
-                        )
+                      
                     ])
                 ])
             )
@@ -173,8 +171,7 @@ Lightbox.prototype = {
 		$('nextLink').observe('click', (function(event) { event.stop(); this.changeImage(this.activeImage + 1); }).bindAsEventListener(this));
 		$('loadingLink').observe('click', (function(event) { event.stop(); this.end(); }).bind(this));
 		$('bottomNavClose').observe('click', (function(event) { event.stop(); this.end(); }).bind(this));
-		$('bottomNavPrint').observe('click', (function(event) { event.stop(); this.print(); }).bind(this));
-
+		
         var th = this;
         (function(){
             var ids = 
@@ -446,41 +443,7 @@ Lightbox.prototype = {
     },
 	
     //
-    //  print()
-    //
-    print: function() {
-        var objBody = $$('body')[0];
-		var iframe = $('lightboxPrintFrame');
-		if ($('lightboxPrintFrame')) {
-			iframe.remove();
-		}
-		
-		iframe = Builder.node('iframe',{id:'lightboxPrintFrame', name:'lightboxPrintFrame', src:'about:blank'});
-		iframe.observe('load', (function(event) {
-			var idoc = iframe.contentDocument || iframe.contentWindow.document;
-			var iwin = iframe.contentWindow || iframe.contentDocument.defaultView;
-			
-			var body = idoc.getElementsByTagName('body')[0];
-			var img = idoc.createElement('img');
-			img.setAttribute('src', this.lightboxImage.getAttribute('src'));
-			img.setAttribute('alt', this.lightboxImage.getAttribute('alt'));
-			img.setAttribute('title', this.lightboxImage.getAttribute('title'));
-			img.setAttribute('width', this.lightboxImage.getAttribute('width'));
-			img.setAttribute('height', this.lightboxImage.getAttribute('height'));
-			body.appendChild(img);
-			
-			var div = idoc.createElement('div');
-			div.innerHTML = this.caption.innerHTML;
-			body.appendChild(div);
-			setTimeout(function(){
-				iwin.focus();
-				window.frames['lightboxPrintFrame'].print();
-			}, 500);
-		}).bind(this));
-		
-		objBody.appendChild(iframe);
-    },
-
+    
     //
     //  getPageSize()
     //
