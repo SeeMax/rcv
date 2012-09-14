@@ -128,11 +128,7 @@ transition: opacity .7s ease-in-out;
 	padding:60px 0px 30px 0px;
 }
 
-.about_content{
-	display:inline-block;
-	margin:0px 0px 0px 280px;
-	padding:10px 0px 30px 0px;
-}
+
 
 .link_content{
 	display:inline-block;
@@ -244,13 +240,22 @@ transition: opacity .7s ease-in-out;
 
 
 .about{
-	border-radius:2px;
-	background: url('/images/White_Block.png');
-	width: 470px;
-	margin:10px 0px 15px 20px;
-	padding:40px 0px 26px 0px;
+	margin:0px 0px 40px 0px;
+	padding:60px 0px 0px 40px;
+	width:430px;
 }
 
+
+.about_content{
+	background: url('/images/White_Block2.png');
+	background-repeat:repeat-x;
+	
+	width:550px;
+	height:550px;
+	display:inline-block;
+	margin:0px 0px 0px 280px;
+	padding:0px 0px 50px 0px;
+}
 
 
 .link_content{
@@ -365,11 +370,9 @@ transition: opacity .7s ease-in-out;
 
 .p5 
 {
-	font-size: 13px; 
+	font-size: 15px; 
 	font-family: Arial, "Lucida Grande", sans-serif;
-	color: rgba(85,15,15, 0.9); 
-	letter-spacing: 1px;
-	line-height:16px;
+	color: rgba(85,15,15, 0.7); 
 	padding: 2px 6px 2px 30px;
 }
 
