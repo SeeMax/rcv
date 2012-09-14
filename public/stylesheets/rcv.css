@@ -240,23 +240,35 @@ transition: opacity .7s ease-in-out;
 
 
 .about{
-	margin:0px 0px 40px 0px;
-	padding:60px 0px 0px 40px;
-	width:430px;
+	border-radius:7px;
+	margin:20px 0px 0px 10px;
+	padding:25px 18px 30px 22px;
+	width:400px;
+	border-style:solid; 
+	border-color:rgba(85,15,15,0.2); 
+	border-width:3px;
 }
 
 
 .about_content{
 	background: url('/images/White_Block2.png');
 	background-repeat:repeat-x;
-	
+	width:510px;
+	height:550px;
+	display:inline-block;
+	margin:20px 0px 40px 280px;
+	padding:25px 0px 50px 40px;
+}
+
+
+.linker_content{
+	background-repeat:repeat-x;
 	width:550px;
 	height:550px;
 	display:inline-block;
 	margin:0px 0px 0px 280px;
-	padding:0px 0px 50px 0px;
+	padding:25px 0px 50px 0px;
 }
-
 
 .link_content{
 	background: url('/images/RCV_Carboard_Back2o.png');
@@ -373,7 +385,7 @@ transition: opacity .7s ease-in-out;
 	font-size: 15px; 
 	font-family: Arial, "Lucida Grande", sans-serif;
 	color: rgba(85,15,15, 0.7); 
-	padding: 2px 6px 2px 30px;
+	padding: 0px 0px 0px 0px;
 }
 
 
