@@ -251,13 +251,14 @@ transition: opacity .7s ease-in-out;
 
 .whitebackground{
 	position: absolute;
+	top:173px; 
+	right:180px;
+	z-index:-1;
 	background: url('/images/content_cardboard.png');
 	background-repeat:no-repeat;
 	width:535px;
 	height:604px;
 	display:inline-block;
-	margin:173px 0px 0px 310px;
-	z-index:-1;
 	-moz-box-shadow: 4px 2px 4px rgba(0,0,0,0.15);
 	-webkit-box-shadow: 4px 2px 4px rgba(0,0,0,0.15);
 	box-shadow: 4px 2px 4px rgba(0,0,0,0.15);
@@ -334,10 +335,9 @@ transition: opacity .7s ease-in-out;
 }
 
 .p2 {
-	font-size: .875em; 
+	font-size: 11px; 
 	font-family: Arial, "Lucida Grande", sans-serif; 
 	color:rgba(2,2,75, 0.8);
-	letter-spacing: 1.5px;
 	white-space:nowrap;
 }
 
@@ -381,8 +381,8 @@ transition: opacity .7s ease-in-out;
 {
 	font-size: 24px; 
 	font-family: Arial, "Lucida Grande", sans-serif;
-	color:#a12427;
-	padding: 14px 0px 13px 0px;
+	color:rgba(2,2,75, 0.8);
+	padding: 14px 0px 12px 0px;
 	opacity:.8;
 }
 
@@ -394,6 +394,7 @@ transition: opacity .7s ease-in-out;
 	color:#727272;
 	padding: 13px 0px 18px 0px;
 	opacity:.9;
+	line-height:15px;
 }
 
 
