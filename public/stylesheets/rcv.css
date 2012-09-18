@@ -379,15 +379,26 @@ transition: opacity .7s ease-in-out;
 }
 
 
-.pAbout 
+.pAbout1 
 {
-	font-size: 14px; 
+	font-size: 13px; 
 	font-family: Arial, "Lucida Grande", sans-serif;
 	color:#727272;
 	padding: 11px 0px 16px 0px;
 	opacity:.9;
-	line-height:15px;
+	line-height:16px;
 }
+
+.pAbout2 
+{
+	font-size: 12px; 
+	font-family: Arial, "Lucida Grande", sans-serif;
+	color:#727272;
+	padding: 2px 0px 2px 0px;
+	opacity:.9;
+	line-height:14px;
+}
+
 
 .plink_title 
 {
