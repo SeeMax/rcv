@@ -20,6 +20,15 @@
   Shadowbox.init();
   </script>
   
+  <script type="text/javascript">
+          var iphone = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+          if (iphone) {
+              var lnk = document.getElementsByClassName('play_btn');
+              for (var i = 0; lnk[i]; i++)
+              lnk[i].rel = lnk[i].className = "";
+          }
+      </script>
+  
 </head>
 <body> 
   
