@@ -6,6 +6,11 @@ get '/mobile' do
   erb :mobile
 end
 
+get '/mobile2' do
+  erb :mobile2
+end
+
+
 get '/about' do
   erb :about
 end
